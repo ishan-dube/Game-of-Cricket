@@ -2,7 +2,7 @@ import java.util.*;
 import Player.Player;
 public class Toss {
 
-   // private String tossTeam,otherTeam;
+
     private static String tossWinner,tossLooser;
     private static Player[] tossWinnerTeam,tossLooserTeam;
 
@@ -16,11 +16,7 @@ public class Toss {
          System.out.println("2 : "+InputValues.getTeam2Name());
          n = sc.nextInt();
 
-//         switch (n) {
-//             case 1 -> {tossTeam = InputValues.getTeam1Name(); otherTeam =InputValues.getTeam2Name();team=InputValues.team1;}
-//             case 2 -> {tossTeam = InputValues.getTeam2Name(); otherTeam =InputValues.getTeam1Name();team=InputValues.team2;}
-//
-//         }
+
 
          System.out.println("\nToss Begins: Choose 0 - Head & 1- Tail");
          tossValue = sc.nextInt();
@@ -52,17 +48,6 @@ public class Toss {
              }
          }
 
-//         if(tossValue == Toss.randomToss())
-//         {
-//             System.out.println("Team "+ tossTeam +" Won the Toss");
-//             tossWinner=tossTeam;tossWinnerTeam=team;
-//             tossLooser=otherTeam;tossLooserTeam=
-//
-//         }else{
-//             System.out.println("Team "+ tossTeam +" Lost the Toss");
-//             tossWinner=otherTeam;
-//             tossLooser=tossTeam;
-//         }
 
      }
 
