@@ -70,5 +70,5 @@ public class Toss {
     public static int randomToss(){
         return (int)Math.round(Math.random());
     }
-
+// This is a test line written in week1 branch
 }
